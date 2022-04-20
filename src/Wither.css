@@ -1,0 +1,67 @@
+@keyframes Loding{
+  from{
+    height: 20px;
+  }
+  50%{
+    transform: translateY(20px);
+    height: 40px;
+  }
+  to{
+    height: 20px;
+  }
+}
+.app{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.dataDisplay{
+  width: 20%;
+  text-align: center;
+  background: rgb(45, 43, 43);
+}
+.respons{
+  margin-top: 100px;
+  transition: all 0.3s;
+}
+.fatherLodingAnimation{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.loadingAnimation{
+  margin: 0 10px;
+  width: 10px;
+  height: 20px;
+  background-color: #00F;
+  animation: Loding 0.3s infinite;
+}
+.lodingOne{
+  animation: Loding 0.3s infinite;
+}
+.lodingtow{
+  animation: Loding 0.5s infinite;
+}
+.lodingthree{
+  animation: Loding 0.7s infinite;
+}
+.reErr{
+  font-size: 2em;
+  color: #F00;
+}
+.startPiont{
+  align-self: center;
+  color: #00F;
+  font-size: 2em;
+}
+.cityName{
+  font-size: 2em;
+}
+.imageWither{
+  width: 50%;
+  margin: auto;
+}
+.witherState{
+  font-size: 2em;
+}
